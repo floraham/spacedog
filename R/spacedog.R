@@ -6,6 +6,7 @@
 #'
 #' @examples
 #'
+#'
 spacedog <- function(){
   theme(plot.background = element_rect(fill = "black"),
         panel.background = element_rect(fill = "navy"),
@@ -13,4 +14,3 @@ spacedog <- function(){
         panel.grid = element_line(color = "white"))
 }
 
-#change2
